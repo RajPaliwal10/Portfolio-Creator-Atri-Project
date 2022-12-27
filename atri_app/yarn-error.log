@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Users\rajpa\.atri\webapp-builder-win.exe.v0.0.88 C:\snapshot\webapp-builder\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\rajpa\.virtualenvs\my_app-Kar8c3OA\Scripts;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\NodeJs\;C:\Program Files\dotnet\;C:\Users\rajpa\AppData\Local\Programs\Python\Python310;C:\Users\rajpa\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\rajpa\AppData\Roaming\Python\Python310\Scripts;C:\Users\rajpa\AppData\Local\Microsoft\WindowsApps;C:\Users\rajpa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rajpa\AppData\Local\flutter\bin;C:\Users\rajpa\AppData\Roaming\npm;:c:\Users\rajpa\.vscode\extensions\trunk.io-3.3.6\out
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EBUSY: resource busy or locked, copyfile 'C:\Users\rajpa\AppData\Local\Yarn\Cache\v6\npm-@typescript-eslint-utils-5.47.0-b5005f7d2696769a1fdc1e00897005a25b3a0ec7-integrity\node_modules\@typescript-eslint\utils\dist\ast-utils\helpers.js.map' -> 'C:\Users\rajpa\my_app\atri_app\node_modules\@typescript-eslint\utils\dist\ast-utils\helpers.js.map'
+
+npm manifest: 
+  {
+    "name": "atri-react-app-template",
+    "version": "0.0.0",
+    "private": "true",
+    "scripts": {
+      "buildApp": "atri-react-app-build-app",
+      "buildAppNode": "atri-react-app-build-server",
+      "buildServer": "cd server && tsc",
+      "build": "yarn run buildApp && yarn run buildAppNode",
+      "devServer": "node dist/server/index.js --dev",
+      "server": "node dist/server/index.js",
+      "dev": "atri-react-app-dev-server"
+    },
+    "dependencies": {
+      "@atrilabs/app-scripts": "^0.0.88",
+      "@atrilabs/core": "^0.0.88",
+      "chokidar": "^3.5.3",
+      "http-proxy-middleware": "^2.0.6",
+      "react": "18.0.0",
+      "react-dom": "18.0.0",
+      "react-router-dom": "^6.3.0",
+      "ws": "^8.8.0",
+      "zustand": "^4.0.0-rc.1",
+      "@atrilabs/react-component-manifests": "^0.0.88"
+    },
+    "devDependencies": {
+      "eslint-config-prettier": "^8.5.0",
+      "eslint-config-react-app": "^7.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
