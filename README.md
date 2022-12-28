@@ -1,6 +1,8 @@
 # Portfolio-Creator-Atri-Project
-This is a Portfolio Creator Website created using Atri Framework. Atri Labs is a New-York based early-stage startup. It was co-founded by graduate school dropouts of MIT and Columbia University. Atri Labs is creating a full-stack web development framework to build Progressive Web Apps
-How to Run:
+
+This is a Portfolio Creator Website created using Atri Framework. Atri Labs is a New-York based early-stage startup. It was co-founded by graduate school dropouts of MIT and Columbia University. Atri Labs is creating a full-stack web development framework to build Progressive Web Apps.
+
+# How to Run:
 
 pipenv install atri==0.0.78
 pipenv shell
@@ -13,7 +15,7 @@ Once you click Build and Run in your visual editor, your website will start runn
 All the files for your website are being auto-generated in your local directory.
 You can write the backend of your website at controllers/routes/<page_name>/main.py.
 
-Screenshots: 
+# Screenshots: 
 
 ![1](https://user-images.githubusercontent.com/88249606/209761962-0b4893e4-0f64-4043-b5b7-2029d75afe7c.png)
 
@@ -27,7 +29,8 @@ Screenshots:
 
 ![6](https://user-images.githubusercontent.com/88249606/209762565-2bb8ef85-c755-4af7-b29c-fefef7db13f8.png)
 
-How is Atri framework different from other web development frameworks?
+# How is Atri framework different from other web development frameworks?
+
 Atri framework is not just limited to the JavaScript world. You can use this framework with many languages such as Python, NodeJS (upcoming), etc.
 Atri framework comes with a suite of productivity tools such as visual editor, asset management tools, etc. that significantly reduce development time from months to hours.
 Using Atri framework, developers do not need to write and document REST APIs. Instead, they rely upon the object model which acts as a single source of truth. This also has other benefits as well such as reducing compliance breaches.
